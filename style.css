@@ -1,20 +1,24 @@
 body {
+/*Setting the background colors and themes*/
     background-color: black;
     font-family: arial;
     color: white;
 }
 h1{
+/*Stying the heading*/
     color: grey;
     font-family: verdana;
     text-align: center;
 }
 .maindiv{
+/*This is container for all the other components*/
     background-color: white;
     color: black;
     width: 70%;
     padding: 20px;
     border-radius: 25px;
     margin:auto;
+/* setting margin to auto sets the element at the center of the page*/
 }
 .contents{
     width: 300px;
@@ -25,5 +29,6 @@ span#rate_val:after{
     content: "%";
 }
 div > *{
+/* Allow required gaps between interactive elements */
     margin: 5px;
 }
